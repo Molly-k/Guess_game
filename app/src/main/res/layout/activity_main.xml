@@ -4,13 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/purplebubbles"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:fontFamily="@font/chewy"
+        android:shadowColor="@color/black"
+        android:shadowDx="50"
+        android:shadowDy="20"
+        android:shadowRadius="30"
+        android:text="@string/guess"
+        android:textColor="@color/white"
+        android:textSize="96sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/design_default_color_on_primary"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:text="@string/start_a_new_game"
+        android:onClick="startGame"
+        android:textColor="@color/deeeepmauve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:text="@string/settings"
+        android:onClick="openSettings"
+        android:textColor="@color/deeeepmauve"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

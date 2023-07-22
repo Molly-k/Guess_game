@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Guess</string>
+    <string name="maths">Maths</string>
+    <string name="choose_a_topic">Choose a Topic</string>
+    <string name="geographyTheme">geography</string>
+    <string name="music">music</string>
+    <string name="logo">logo</string>
+    <string name="question_goes_here">Question goes here</string>
+    <string name="type_your_answer_here">Type your answer here</string>
+    <string name="submit">Submit</string>
+    <string name="score_0">Score: 0</string>
+    <string name="time_left_15s">Time left: 15s</string>
+    <string name="guess">Guess!</string>
+    <string name="start_a_new_game">Start a New Game</string>
+    <string name="settings">Settings</string>
+    <string name="geography_logo">geography_logo</string>
 </resources>

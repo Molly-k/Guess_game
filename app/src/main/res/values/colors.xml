@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="mauve">#b784a7</color>
+    <color name="deeeepmauve">#9D3695</color>
+    <color name="simplemauve">#A96C96</color>
+    <color name="purplemauve">#D7A1F9</color>
 </resources>
